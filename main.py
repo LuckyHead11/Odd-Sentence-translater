@@ -53,7 +53,7 @@ except:
     print("Flask not installed")
     print("Installing flask")
     import os
-    os.system("pip install flask")
+    os.system("python -m pip install flask")
     from flask import Flask, render_template, request, redirect, url_for
 
 
